@@ -78,6 +78,11 @@ def InitialisePoints():
         INIT_POINTS.append(rect)
 
 
+def InitialiseSquarePoints():
+    pass
+
+
+
 def roll_and_draw(curr_point):
     # roll a number
     num_rand = random.randint(0,NUM_POINTS-1)
