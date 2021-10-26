@@ -19,7 +19,7 @@ SCREEN_HEIGHT = 1000
 dotSide = 1
 RADIUS = 400
 SIDE = 1
-N = 400
+N = 450
 
 # Colours
 BLACK = (  0,   0,   0)
@@ -55,7 +55,7 @@ def draw_line(MULTIPLIER):
     return lines
 
 def main():
-    MULTIPLIER = 1
+    MULTIPLIER = 2
     clock = pygame.time.Clock()
     running = True
     begin = True
@@ -83,7 +83,7 @@ def main():
         textsurface = myfont.render(f'Multiplier: {MULTIPLIER}', False, (0, 0, 0))
         scr.blit(textsurface,(0,0))
         clock.tick(2)
-        MULTIPLIER = MULTIPLIER +1
+        # MULTIPLIER = MULTIPLIER +1
         pygame.display.update()
     pygame.quit()
 
