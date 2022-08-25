@@ -7,4 +7,3 @@ Beautiful circle patterns formed from modulo arithmetic.
 # Barnley's Fern Fracral
 A working simulation of Barnley's fern. This is a fractal pattern created using probabilty and matrix multiplication.
 ![](image.png)
-![](img2.png)
